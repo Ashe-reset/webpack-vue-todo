@@ -1,0 +1,30 @@
+{
+  "name": "webpack-vue-todo",
+  "version": "1.0.0",
+  "description": "使用webpack和vue构建简单的TODO应用",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashe-reset/webpack-vue-todo.git"
+  },
+  "author": "Ashe-reset",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashe-reset/webpack-vue-todo/issues"
+  },
+  "homepage": "https://github.com/Ashe-reset/webpack-vue-todo#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "vue": "^2.5.16",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.8.0",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
